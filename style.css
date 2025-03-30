@@ -5,3 +5,12 @@
 #navbar{
   
 }
+
+#navbar logo{
+  margin:10px 30px;
+}
+
+#navbar logo img{
+  margin:3px 6px;
+  height:40px;
+}
