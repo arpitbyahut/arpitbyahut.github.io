@@ -1,33 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" href="style.css">
-<title>!!Arpit Byahut!!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhartha Team</title>
+    <link rel="stylesheet" href="style.css" class="stylshhet">
 </head>
-    
-<body oncontextmenu="return false">
-    <nav id="navbar">
-        <div id="logo">
-            <a href="https://arpitbyahut.github.io/"><img src="https://arpitbyahut.github.io/images/logo/logo.jpg" alt="!!Arpit Byahut"></a>
+
+<body>
+    <div class="navbar">
+        <div class="nav-logo">
+            <a href=""><img src="https://arpitbyahut.github.io/images/logo/logo.jpg"
+                    alt="Siddhartha Team">
+            </a>
         </div>
-        <ul>
-            <li class="menu-tab"> <a href="">Home</a></li>
-            <li class="menu-tab"> <a href="">Resume</a></li>
-            <li class="menu-tab"> <a href="">Projects</a></li>
-            <li class="menu-tab"> <a href="">Notes</a></li>
-            <li class="menu-tab"> <a href="">Connect</a></li>
+        <ul class="nav-link">
+            <li class="menu-item"><a href="#home">Home</a></li>
+            <li class="menu-item"><a href="#about">About</a></li>
+            <li class="menu-item"><a href="#projects">Projects</a></li>
+            <li class="menu-item"><a href="#team">Our&nbsp;Team</a></li>
+            <li class="menu-item"><a href="#contact">Contact&nbsp;Us</a></li>
         </ul>
-        <div id="auth-btn">
-        <div id="login">
-            <a href="">LOGIN</a>
+    </div>
+    <hr>
+    <section id="home">
+        <div class="home">
+            <div>
+                <h1>SIDDHARTHA TEAM WELCOMES YOU</h1>
+                <p>Innovation Beyond Boundries...</p>
+                <p>we Create the Solutions that Matters with a team that cares!!</p>
+                <a href="#about">JOIN US</a>
+            </div>
+    </section>
+    <h2>ABOUT US</h2>
+    <section id="about">
+        <div class="box">
+            <div class="card">
+                <h3>Team Vision</h3>
+                <p>Empower every team member to grow, collaborate, and drive impactful solutions that transform our
+                    industry.</p>
+            </div>
+            <div class="card">
+                <h3>Team Mission</h3>
+                <p>To innovate and design user-centric solutions that solve real-world problems with cutting-edge
+                    technology.</p>
+            </div>
+            <div class="card">
+                <h3>Team Value</h3>
+                <p>Our foundation is collaboration and excellence. With agility,we learn,
+                    adapt, and rise to challenge.</p>
+            </div>
         </div>
-        <div id="signup">
-            <a href="">SIGNUP</a>
+    </section>
+
+    <section id="projects">
+        <h2>OUR PROJECTS</h2>
+        <div class="box">
+            <div class="card">
+                <h3>HTML</h3>
+                <div class="project-img"
+                    style="background-image: url('https://arpitbyahut.github.io/images/logo/html.jpg');">
+                </div>
+            </div>
+            <div class="card">
+                <h3>CSS</h3>
+                <div class="project-img"
+                    style="background-image: url('https://arpitbyahut.github.io/images/logo/css.jpg');">
+                </div>
+            </div>
+            <div class="card">
+                <h3>JS</h3>
+                <div class="project-img"
+                    style="background-image: url('https://arpitbyahut.github.io/images/logo/js.jpg');">
+                </div>
+            </div>
+            <div class="card">
+                <h3>REACT</h3>
+                <div class="project-img"
+                    style="background-image: url('https://arpitbyahut.github.io/images/logo/react.jpg');">
+                </div>
+            </div>
         </div>
+    </section>
+
+    <section id="team">
+        <h2>OUR TEAM</h2>
+        <div class="box">
+            <div class="card">
+                <h3>Arpit Kumar</h3>
+                <p>Team Head</p>
+                <div class="project-img"
+                    style="background-image: url('https://arpitbyahut.github.io/images/logo/logo.jpg');">
+                </div>
+            </div>
+            <div class="card">
+                <h3>Prashant Sinha</h3>
+                <p>Team Leader</p>
+                <div class="project-img"
+                    style="background-image: url('https://arpitbyahut.github.io/images/logo/logo.jpg');">
+                </div>
+            </div>
+            <div class="card">
+                <h3>Rishu Kumar</h3>
+                <p>Team Manager</p>
+                <div class="project-img"
+                    style="background-image: url('https://arpitbyahut.github.io/images/logo/logo.jpg');">
+                </div>
+            </div>
         </div>
-    </nav>
-</body>  
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form action="info.php">
+                <div class="form-content">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Mention Your Name..." required>
+                </div>
+                <div class="form-content">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email..." required>
+                </div>
+                <div class="form-content">
+                    <label for="mobile">Number</label>
+                    <input type="tel" name="mobile" id="mobile" placeholder="Number...">
+                </div>
+                <div class="form-content">
+                    <label for="msg">Massage</label>
+                    <textarea name="massage" id="msg" placeholder="write down your Massages" required></textarea>
+                </div>
+                <div class="form-btn">
+                    <input type="submit" value="Submit" class="btn">
+                    <input type="reset" value="Reset" class="btn">
+                </div>
+            </form>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="navbar">
+            <div class="social">
+                <h3>Connect Us</h3>
+                <div class="social-link">
+                    <a href="#" target="_blank">FACEBOOK</a>
+                    <a href="#" target="_blank">INSTAGRAM</a>
+                    <a href="#" target="_blank">TWITTER(X)</a>
+                </div>
+            </div>
+
+            <ul class="nav-link">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
 
 </html>
